@@ -1,0 +1,33 @@
+.side {
+    background-color: rgb(252, 252, 252);
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    top: 55px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.h {
+    height: 40px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column
+}
+.t1{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.side img{
+    height: 24px;
+}
+.t1,.t2,.t3,.t4,.t5,.t6 {
+    text-align: center;
+}
+.side:hover {
+    cursor: pointer;
+}
